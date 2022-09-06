@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Math Quiz Kid Olympiad</title>
+  </head>
+  <body>
+    <form id="form" class="quiz-body">
+      <div class="score-body">
+        <p class="score-holder">
+          &#128185; Score : <span class="score">0</span>
+        </p>
+        <p class="high-score-holder">
+          &#127942; High Score : <span class="high-score">0</span>
+        </p>
+      </div>
+      <div class="question">
+        <h1>
+          What is <span class="first-number">9</span> multiply by
+          <span class="second-number">1</span> ?
+        </h1>
+      </div>
+      <input type="number" id="answer" />
+      <div>
+        <input type="submit" value="Next" id="submit" class="buttons" />
+        <input type="submit" value="Finish" id="finish" class="buttons" />
+      </div>
+    </form>
+    <script src="./Scripts/script.js"></script>
+  </body>
+</html>

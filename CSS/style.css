@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka One", cursive;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quiz-body {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  padding: 50px;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 20px gray, -5px -5px 20px gray;
+  border-radius: 20px;
+}
+
+.score-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-holder {
+  padding-right: 50px;
+}
+
+.high-score-holder {
+  padding-left: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#answer,
+.buttons {
+  background: rgba(128, 128, 128, 0.336);
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+}
+
+#answer {
+  text-align: center;
+  font-size: 40px;
+  height: 60px;
+}
+
+.buttons {
+  padding: 10px 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+input:disabled {
+  cursor: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
